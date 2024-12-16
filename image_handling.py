@@ -393,7 +393,7 @@ def get_best_of_the_rest(db_connection,
         img.save(outFol + str(img_entry[1]['hash_sum']) + '_' + str(img_entry[1]['img_id']) + '.jpg')
         
 
-if __name__ == "__main__":
+if __rep__ == "__main__":
     
     work_fol = 'D:/Stuff/Projects/bbeauty/'        
     conDB, c = connect_db(work_fol + 'Database.sqlite')
